@@ -3,8 +3,8 @@
 body {
     text-align: center;
     font-family: 'Prompt', sans-serif;
-    color: #a6aef1;
-    background-color: #302c55;
+    color: #00ff15;
+    background-color: #322a3b;
     margin: 0% auto;
 }
 
@@ -13,7 +13,7 @@ h1{
 }
 
 header {
-    background-color: #52458b;
+    background-color: #201a29;
 }
 
 nav {
@@ -37,7 +37,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #a6aef1;
+    color: #00ff15;
 }
 
 a:hover {
@@ -54,4 +54,17 @@ img {
     width: 200px;
     border-radius: 100px 100px;
     margin: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border: 3px white solid;
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
