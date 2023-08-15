@@ -40,10 +40,17 @@ a:hover {
     color: #ffffff;
 }
 
+div {
+    background-color: #201a29;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 main {
     padding-top: 20px;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+
 }
 
 .header-img {
@@ -63,5 +70,6 @@ main {
     height: 200px;
     margin-left: 10px;
     margin-right: 10px;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
 }
