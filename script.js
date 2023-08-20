@@ -1,3 +1,5 @@
+// --- TYPING ---
+
 let i = 0;
 let x = 0;
 // Name to be typed
@@ -23,6 +25,13 @@ function typedesc() {
     }
 }
 
+// --- FADE ---
+
+
+
+
+
+// --- EXECUTION ---
 setTimeout(() => {typename();}, 500)
 
 
