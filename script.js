@@ -48,9 +48,9 @@ function show()
 
 // --- EXECUTION ---
 
-setTimeout(() => {typename();}, 500)
+setTimeout(() => {typename();}, 1000)
 
 
-setTimeout(() => {typedesc();}, 1100);
+setTimeout(() => {typedesc();}, 1600);
 
-setInterval(show, 1500);
+setInterval(show, 2000);
