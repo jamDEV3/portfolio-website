@@ -48,11 +48,13 @@ function show()
 
 function showCircle(cx, cy, radius) {
   let div = document.createElement('div');
-  let img = document.getElementById('img-container')
+  let head = document.getElementById('head')
   div.style.width = 0;
   div.style.height = 0;
+  div.style.left = cx + 'px';
+  div.style.top = cy + 'px';
   div.className = 'circle';
-  img.append(div);
+  head.prepend(div);
 
   setTimeout(() => {
     div.style.width = radius * 2 + 'px';
@@ -62,7 +64,7 @@ function showCircle(cx, cy, radius) {
 
 // --- EXECUTION ---
 
-showCircle(150, 150, 100);
+showCircle(500, 500, 100);
 
 setTimeout(() => {typename();}, 1000);
 

@@ -19,12 +19,6 @@ header {
     background-color: #201a29;
 }
 
-#img-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
 nav {
     margin-top: 50px;
 }
@@ -68,8 +62,6 @@ main {
 }
 
 .circle {
-    width: 240px;
-    height: 240px;
     border-radius: 50%;
     margin: 20px;
     background-image: url("images/me.png");
@@ -77,6 +69,7 @@ main {
     background-position: center;
     transition-property: width, height;
     transition-duration: 2s;
+    transform-origin: center ;
 }
 
 .flex-container {
