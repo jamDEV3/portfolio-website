@@ -46,25 +46,25 @@ function show()
 
 // CIRCLE ANIMATION
 
-function showCircle(cx, cy, radius) {
-  let div = document.createElement('div');
-  let head = document.getElementById('head')
-  div.style.width = 0;
-  div.style.height = 0;
-  div.style.left = cx + 'px';
-  div.style.top = cy + 'px';
-  div.className = 'circle';
-  head.prepend(div);
+// function showCircle(cx, cy, radius) {
+//   let div = document.createElement('div');
+//   let head = document.getElementById('head')
+//   div.style.width = 0;
+//   div.style.height = 0;
+//   div.style.left = cx + 'px';
+//   div.style.top = cy + 'px';
+//   div.className = 'circle';
+//   head.prepend(div);
 
-  setTimeout(() => {
-    div.style.width = radius * 2 + 'px';
-    div.style.height = radius * 2 + 'px';
-  }, 0);
-}
+//   setTimeout(() => {
+//     div.style.width = radius * 2 + 'px';
+//     div.style.height = radius * 2 + 'px';
+//   }, 0);
+// }
 
 // --- EXECUTION ---
 
-showCircle(500, 500, 100);
+// showCircle(500, 500, 100);
 
 setTimeout(() => {typename();}, 1000);
 
