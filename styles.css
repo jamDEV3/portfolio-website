@@ -53,8 +53,7 @@ main > div {
     width: max-content;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
 }
 
 main {
@@ -69,6 +68,9 @@ main {
     background-image: url("images/me.png");
     background-size: cover;
     background-position: center;
+}
+
+#header-img {
     -webkit-animation: grow 2s 1;
 }
 
@@ -95,6 +97,10 @@ main {
     margin-right: 10px;
     background-size: cover;
     background-position: center;
+}
+
+.box:hover {
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .links-container {

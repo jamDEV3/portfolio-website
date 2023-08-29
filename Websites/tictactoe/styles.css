@@ -1,0 +1,83 @@
+body {
+    background: #ffffc0;
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    color: #916f11;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+
+    /* Fix for button spacing */
+    font-size: 0%;
+}
+
+h1 {
+    padding: 50px;
+    font-size: 64pt;
+}
+
+p {
+    font-size: 40pt;
+}
+
+input, button {
+    width: 200px;
+    height: 200px;
+    background-color: #ffea74;
+    border: 5px solid #b38815;
+}
+
+.cross {
+    background-image: url("images/cross.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.circle {
+    background-image: url("images/circle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+button {
+    height: 100px;
+    width: 600px;
+    margin: 80px;
+    font-size: 28pt;
+    color: #b38815;
+    border-radius: 10px;
+}
+
+.paragraph {
+    height: 100px;
+}
+
+input:hover, button:hover {
+    background-color: #fff7a0;
+    border-color: #ca9b00;
+    color: #b38815;
+}
+
+.win {
+    background-color: #00ff00;
+    border: 5px solid #00c400;
+}
+
+.win:hover {
+    background-color: #00e000;
+    border-color: #00a500;
+}
+
+.lose {
+    background-color: #ff0000;
+    border: 5px solid #c40000;
+}
+
+.lose:hover {
+    background-color: #e00000;
+    border-color: #aa0000;
+}
