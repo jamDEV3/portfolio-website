@@ -27,15 +27,16 @@ nav > ul {
     display: flex;
     justify-content: center;
     padding: 0%;
+    list-style-type: none;
 }
 
 nav > ul > li {
     width: 33.3em;
 }
 
-li {
+/* li {
     list-style-type: none;
-}
+} */
 
 a {
     text-decoration: none;
@@ -93,6 +94,16 @@ main {
     border: 3px white solid;
     width: 200px;
     height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.box2 {
+    border: 3px white solid;
+    width: 400px;
+    height: 400px;
     margin-left: 10px;
     margin-right: 10px;
     background-size: cover;
