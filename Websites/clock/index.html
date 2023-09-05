@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Clock</title>
+</head>
+<body style="display: flex; justify-content: center;">
+    <div class="container" style="display: flex; justify-content: center;">
+        <div id="mode"></div>
+
+        <div>
+            <div id="clock">
+                <div id="display" class="twelve">
+                </div>
+                <div id="hours"></div>
+                <div id="minutes"></div>
+                <div id="seconds"></div>
+                <div id="pin"></div>
+            </div>
+        </div>
+    
+        <div class = "buttons">
+            <div class="column">
+                <h1>DISPLAY</h1>
+                <input type="button" value="DIGITAL" onclick="digital();"/>
+                <input type="button" value="ANALOG" onclick="analog();"/>
+            </div>
+            
+            <div class="column">
+                <h1>MODE</h1>
+                <input id="12" type="button" value="12 HOUR" onclick="twelve();"/>
+                <input id="24" type="button" value="24 HOUR" onclick="twentyFour();"/>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

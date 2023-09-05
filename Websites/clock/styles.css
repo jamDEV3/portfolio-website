@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(86, 51, 119);
+    font-family: 'Century Gothic';
+    color: white;
+}
+
+#display {
+    
+    display: flex;    
+    width: 40vw;
+    margin: auto;
+    align-items: center;
+    justify-content: center;    
+    align-content: space-around;
+    background-color: black;
+    border-radius: 10px;
+    color: aqua;
+    font-size: 6vw;
+    height: 40vw;
+          	
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    border: 3px black solid;
+    border-radius: 10px;
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    #clock {
+        transform: scale(1.3,1.3);
+    }
+}
+
+h1 {
+    width: 120px;
+}
+
+#clock {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin:auto;
+    height: 40vw;
+    width: 40vw;
+    border: white 3px solid;
+    border-radius:10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    min-width: 140px; 
+}
+
+canvas {
+    width: 100%;
+    background-color: white;
+}
+
+#hours, #minutes, #seconds {
+    position: absolute;    
+    border-radius: 10px;    
+    transform-origin: bottom;
+    vertical-align: bottom;
+}
+
+#pin {  
+    position: absolute;  
+    background: black;
+    border-radius: 50%;
+    width: 4.5%;
+    height: 4.5%;
+    left: 47.7%;
+    top: 47.8%;
+    opacity: 0.9;
+ }
+
+#hours {
+    width: 1.3%;
+    height: 15%;
+    top: 25%;
+    left: 49%;
+    opacity: 0.8;
+    background: black;
+    margin-top: 9.6%;
+    
+}
+
+#minutes {
+    margin-top: 6%;
+    width: 1.3%;
+    height: 19%;
+    top: 25%;
+    left: 49.5%;
+    opacity: 0.8;
+    background: green;
+    
+}
+
+#seconds {
+    margin-top: -1.1%;
+    width: 1.3%;
+    height: 26%;
+    top: 25%;
+    left: 49.5%;
+    opacity: 0.8;
+    background: red;
+}
+
+ .buttons {
+    display: flex;
+    font-family: 'Century Gothic';
+    padding-top: 10px;
+    align-items: center;
+    margin: 20px;
+ }
+
+ input {
+    width: 25vw;
+    padding: 10%;
+    margin: 5%;
+    font-family: 'Century Gothic';
+    font-size: 150%;
+    color: white;
+    background-color: rgb(140, 83, 190);
+    border: white solid 3px;
+    border-radius: 5px;
+ }
+
+ input:hover {
+    background-color: rgb(184, 103, 255);
+ }
+
+ input:disabled {
+    background-color: rgb(98, 65, 128);
+    color:rgb(152, 124, 179);
+    border-color:rgb(152, 124, 179);
+ }
