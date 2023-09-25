@@ -70,6 +70,10 @@ main {
     background-position: center;
 }
 
+video {
+    width: 70%;
+}
+
 #header-img {
     -webkit-animation: grow 2s 1;
 }
