@@ -2,7 +2,8 @@
 
 body {
     text-align: center;
-    font-family: 'Prompt', sans-serif;
+    /* font-family: 'Prompt', sans-serif; */
+    font-family: 'Orbitron', sans-serif;
     color: #00ff15;
     background-color: #322a3b;
     margin: 0% auto;
@@ -19,25 +20,31 @@ nav {
     margin-top: 50px;
 }
 
-main {
+/* main {
     padding-top: 20px;
-}
+    padding-bottom: 20px;
+} */
 
 video {
     width: 70%;
 }
 
-/* li {
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
     list-style-type: none;
-} */
+}
 
 /* NESTED STYLES */
 
 nav > ul {
     display: flex;
     justify-content: center;
-    padding: 0%;
     list-style-type: none;
+    margin: 20px;
 }
 
 nav > ul > li {
@@ -46,17 +53,22 @@ nav > ul > li {
 
 main > div {
     background-color: #201a29;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 /* TEXT */
 
 h1{
     margin: 0% auto;
+}
+
+h1, h2, h3, nav {
+    letter-spacing: 1px;
 }
 
 /* LINKS */
@@ -111,6 +123,8 @@ a:hover {
     background-image: url("images/me.png");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 /*  */
