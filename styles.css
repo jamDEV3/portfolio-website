@@ -69,6 +69,7 @@ h1{
 
 h1, h2, h3, nav {
     letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 /* LINKS */
@@ -87,13 +88,15 @@ a:hover {
 .container {
     min-width:360px;
     max-width: 720px;
+    padding: 20px;
 }
 
 .flex-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
+    max-width: 1200px;
 }
 
 .box {
@@ -107,8 +110,8 @@ a:hover {
 
 .box2 {
     border: 3px white solid;
-    width: 360px;
-    height: 360px;
+    width: 400px;
+    height: 400px;
     margin-left: 10px;
     margin-right: 10px;
     background-size: cover;
@@ -127,7 +130,11 @@ a:hover {
     background-repeat: no-repeat;
 }
 
-/*  */
+/* ID */
+
+#desc * {
+    margin-bottom: 20px;
+}
 
 @media screen and (max-width: 600px) {
     video {
