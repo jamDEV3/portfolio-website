@@ -44,11 +44,15 @@ nav > ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    margin: 20px;
 }
 
 nav > ul > li {
     width: 33.3em;
+}
+
+nav > ul > li > a > div {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 main > div {
@@ -146,10 +150,33 @@ a:hover {
     } */
 }
 
+/* SCROLLBAR */
+
+/* Scrollbar settings for Firefox */
+html {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #00ff15 #201a29;
+}
+
+/* Scrollbar settings for Chrome etc. */
+body::-webkit-scrollbar {
+    width: 0.5em;
+    background-color: #201a29;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #00ff15;
+}
+
 /* UTILITIES */
 
 .box:hover {
     background-color: rgba(255, 255, 255, 0.7);
+}
+
+nav > ul > li > a > div:hover {
+    background-color: #322a3b;
 }
 
 /* ANIMATIONS */
