@@ -3,7 +3,7 @@
 let i = 0;
 let x = 0;
 // Name to be typed
-let name = 'Jamie Tyler';
+let name = 'James Tyler';
 let desc = 'Web Developer || Game Developer';
 // let typename = document.getElementById("typename");
 // let typedesc = document.getElementById("typedesc");

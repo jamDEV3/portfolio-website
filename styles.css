@@ -140,6 +140,12 @@ a:hover {
     margin-bottom: 20px;
 }
 
+#hotlinks {
+    width: 50px;
+}
+
+/* MEDIA */
+
 @media screen and (max-width: 600px) {
     video {
         width:480px;
