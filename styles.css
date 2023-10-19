@@ -140,8 +140,16 @@ a:hover {
     margin-bottom: 20px;
 }
 
+#links * {
+    padding: 20px;
+}
+
+#links > a {
+    text-decoration: underline;
+}
+
 #hotlinks {
-    width: 50px;
+    width: 70px;
 }
 
 /* MEDIA */
