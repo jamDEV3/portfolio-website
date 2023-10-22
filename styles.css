@@ -2,8 +2,8 @@
 
 body {
     text-align: center;
-    /* font-family: 'Prompt', sans-serif; */
     font-family: 'Orbitron', sans-serif;
+    font-size: 15pt;
     color: #00ff15;
     background-color: #322a3b;
     margin: 0% auto;
@@ -19,11 +19,6 @@ header {
 nav {
     margin-top: 50px;
 }
-
-/* main {
-    padding-top: 20px;
-    padding-bottom: 20px;
-} */
 
 video {
     width: 70%;
@@ -158,10 +153,6 @@ a:hover {
     video {
         width:480px;
     }
-    
-    /* .flex-container {
-        flex-direction: column;
-    } */
 }
 
 /* SCROLLBAR */
@@ -185,8 +176,12 @@ body::-webkit-scrollbar-thumb {
 
 /* UTILITIES */
 
-.box:hover {
-    background-color: rgba(255, 255, 255, 0.7);
+a > .box:hover, a >.box2:hover {
+    opacity: 0.7;
+}
+
+a > .box:active, a >.box2:active {
+    opacity: 0.9;
 }
 
 nav > ul > li > a > div:hover {
