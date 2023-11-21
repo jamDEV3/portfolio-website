@@ -5,8 +5,10 @@ let x = 0;
 // Name to be typed
 let name = 'James Tyler';
 let desc = 'Web Developer || Game Developer';
-// let typename = document.getElementById("typename");
-// let typedesc = document.getElementById("typedesc");
+
+// {Work In Progress}
+//      let typename = document.getElementById("typename");
+//      let typedesc = document.getElementById("typedesc");
 
 // Speed in ms
 let speed = 40;
